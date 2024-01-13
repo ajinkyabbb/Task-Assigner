@@ -28,10 +28,10 @@ export default function CompletedTasks() {
           style={{marginTop:'10px'}}
           color="primary"
           className={`header-option py-3 ${
-            pathMathRoute("/TaskApp") &&
+            pathMathRoute("/TTask-Assigner") &&
             "text-reset border border-5 border-start-0 border-top-0 border-end-0 border-danger fw-bolder"
           }`}
-          onClick={() => navigate("/TaskApp")}
+          onClick={() => navigate("/Task-Assigner")}
         >
           Tasks
         </Button>
